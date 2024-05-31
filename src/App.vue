@@ -2,10 +2,12 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
+import Topic from "./components/Topic.vue";
 import "./style.css";
 </script>
 
 <template>
   <Home />
   <About />
+  <Topic />
 </template>
