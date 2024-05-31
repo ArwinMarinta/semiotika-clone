@@ -4,9 +4,9 @@ import { conferense } from "../data/Conference";
 </script>
 
 <template>
-  <div class="w-full mt-20">
-    <div class="container">
-      <div class="flex flex-row gap-x-28">
+  <div class="w-full mt-20 flex justify-center">
+    <div class="container flex flex-col">
+      <div class="flex flex-row gap-28">
         <div class="w-[40%]">
           <div class="max-w-fit flex flex-col items-center">
             <div class="font-bold text-8xl text-UTAMA">About</div>
