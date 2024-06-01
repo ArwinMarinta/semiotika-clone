@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { Registration } from "../data/Registration";
+</script>
 
 <template>
   <div class="w-full justify-center flex mt-20 mb-10">
@@ -23,7 +25,39 @@
             <span>for Presenter</span>
           </button>
         </div>
-        <div></div>
+      </div>
+      <div class="grid grid-cols-4 w-full gap-14 mt-14">
+        <div v-for="(item, index) in Registration" :key="index">
+          <div
+            class="flex flex-col border-YELLOW01 py-10 h-full border-dashed border-2 px-10 items-center drop-shadow-md bg-[#FEFEFE]"
+          >
+            <div>
+              <div class="text-lg font-semibold text-UTAMA">{{ item.title }}</div>
+              <div class="text-xs text-end w-full text-UTAMA">{{ item.sesion }}</div>
+            </div>
+            <div v-for="(items, index) in item.type" :key="index" class="w-full mt-2">
+              <div class="flex flex-col w-full">
+                <label class="text-start w-full text-UTAMA text-sm">{{
+                  items.label
+                }}</label>
+                <div
+                  class="py-1 text-white font-semibold text-center rounded-md bg-YELLOW01"
+                >
+                  {{ items.name }}
+                </div>
+              </div>
+            </div>
+            <div class="w-full h-full mt-4">
+              <div
+                v-for="(items, index) in item.benefit"
+                :key="index"
+                class="w-full text-center mt-1"
+              >
+                <div class="text-UTAMA font-semibold">{{ items.name }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
