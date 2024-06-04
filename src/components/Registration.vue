@@ -5,8 +5,8 @@ import { Registration } from "../data/Registration";
 <template>
   <div class="w-full justify-center flex mt-20 mb-10">
     <div class="container flex flex-col">
-      <h1 class="text-center text-7xl font-bold text-UTAMA">Registration</h1>
-      <div class="flex flex-col mt-12 w-[35%]">
+      <h1 class="text-center lg:text-7xl text-5xl font-bold text-UTAMA">Registration</h1>
+      <div class="flex flex-col mt-12 lg:w-[35%]">
         <p class="text-UTAMA font-semibold">
           To take part in this event you must fill out the registration participant or
           submission presenter below.
@@ -26,13 +26,15 @@ import { Registration } from "../data/Registration";
           </button>
         </div>
       </div>
-      <div class="grid grid-cols-4 w-full gap-14 mt-14">
+      <div class="grid lg:grid-cols-4 grid-cols-2 w-full lg:gap-14 gap-4 mt-14">
         <div v-for="(item, index) in Registration" :key="index">
           <div
-            class="flex flex-col border-YELLOW01 py-10 h-full border-dashed border-2 px-10 items-center drop-shadow-md bg-[#FEFEFE]"
+            class="flex flex-col border-YELLOW01 py-10 h-full border-dashed border-2 lg:px-10 px-4 items-center drop-shadow-md bg-[#FEFEFE]"
           >
             <div>
-              <div class="text-lg font-semibold text-UTAMA">{{ item.title }}</div>
+              <div class="text-lg font-semibold text-UTAMA text-center">
+                {{ item.title }}
+              </div>
               <div class="text-xs text-end w-full text-UTAMA">{{ item.sesion }}</div>
             </div>
             <div v-for="(items, index) in item.type" :key="index" class="w-full mt-2">

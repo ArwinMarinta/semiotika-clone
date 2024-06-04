@@ -17,7 +17,9 @@ const center = { lat: -1.1509151, lng: 116.8709862 };
 
 <template>
   <div class="py-10">
-    <div class="w-full text-center font-bold text-7xl text-UTAMA">Location</div>
+    <div class="w-full text-center font-bold lg:text-7xl text-4xl text-UTAMA">
+      Location
+    </div>
     <GoogleMap
       api-key="AIzaSyAUjSHfHzLnlIFVadH0b_QvUkviZ90lBnE"
       class="mt-10"

@@ -5,7 +5,7 @@ import Email from "../../assets/email.svg";
 
 <template>
   <div class="w-full flex justify-center bg-UTAMA">
-    <div class="container flex flex-row w-full gap-10 py-10 justify-between">
+    <div class="container flex lg:flex-row flex-col w-full gap-10 py-10 justify-between">
       <div class="flex flex-col">
         <p class="text-xl text-YELLOW01 font-semibold">Secretariat</p>
         <h3 class="text-2xl font-semibold text-white">
@@ -32,7 +32,7 @@ import Email from "../../assets/email.svg";
       </div>
       <div class="flex flex-col">
         <div class="text-xl text-YELLOW01 font-semibold">Contact Person</div>
-        <div class="bg-white px-28 py-10 w-full rounded-lg mt-4">.</div>
+        <div class="bg-white px-28 py-10 w-full rounded-lg mt-4 text-white">.</div>
       </div>
     </div>
   </div>

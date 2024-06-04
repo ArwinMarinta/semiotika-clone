@@ -5,11 +5,11 @@ import Topic5 from "../assets/Topic/topic5.svg";
 
 <template>
   <div class="w-full flex justify-center mt-20 mb-10">
-    <div class="container flex flex-row gap-16">
-      <div class="w-[70%] grid grid-cols-2 gap-8 mt-14">
+    <div class="container flex lg:flex-row flex-col-reverse gap-16">
+      <div class="lg:w-[70%] grid grid-cols-2 lg:gap-8 gap-4 lg:mt-14">
         <div v-for="(item, index) in Topic" :key="index">
           <div
-            class="flex flex-col h-full justify-center border-[1px] bg-[#FEFEFE] items-center py-16 px-10 rounded-lg shadow-md"
+            class="flex flex-col h-full lg:justify-center border-[1px] bg-[#FEFEFE] items-center lg:py-16 py-8 lg:px-10 px-4 rounded-lg shadow-md"
           >
             <img :src="item.icon" class="w-24" />
             <div class="text-center w-[60%] mt-6 text-YELLOW01">
@@ -18,10 +18,14 @@ import Topic5 from "../assets/Topic/topic5.svg";
           </div>
         </div>
       </div>
-      <div class="w-[30%] flex flex-col items-end">
+      <div class="lg:w-[30%] w-full flex flex-col items-end">
         <div class="flex flex-col text-UTAMA">
-          <h1 class="text-8xl font-bold border-b-4 pb-6 border-YELLOW01">Topics</h1>
-          <p class="text-end mt-4 text-base font-semibold">
+          <h1
+            class="lg:text-8xl text-5xl max-w-fit font-bold border-b-4 pb-6 border-YELLOW01"
+          >
+            Topics
+          </h1>
+          <p class="lg:text-end text-center mt-4 text-base font-semibold">
             Here's some topics of SEMIOTIKA
           </p>
         </div>
