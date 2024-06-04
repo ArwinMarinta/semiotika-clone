@@ -1,5 +1,6 @@
 <script setup>
 // import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from "./components/Navigation/Navbar/index.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Topic from "./components/Topic.vue";
@@ -12,6 +13,7 @@ import "./style.css";
 </script>
 
 <template>
+  <Navbar />
   <Home />
   <About />
   <Topic />

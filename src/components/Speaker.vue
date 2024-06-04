@@ -6,7 +6,7 @@ import Speaker3 from "../assets/speaker/speaker3.svg";
 </script>
 
 <template>
-  <div class="relative w-full flex justify-center">
+  <div class="relative w-full flex justify-center" id="Speakers">
     <img :src="Background" class="w-full relative" />
     <div class="grid grid-cols-3 absolute bottom-0 w-full items-end">
       <img :src="Speaker1" class="w-full h-auto" />

@@ -3,12 +3,15 @@ import HomeImage from "../assets/home.svg";
 </script>
 
 <template>
-  <div class="w-full flex bg-gradient-to-b from-[#0038C7] to-[#002687] relative">
+  <div
+    class="w-full flex bg-gradient-to-b from-[#0038C7] to-[#002687] relative"
+    id="Home"
+  >
     <!-- <div class="container flex justify-center">Home</div> -->
 
-    <div class="flex flex-row-reverse">
-      <div></div>
-      <div class="w-[60%]">
+    <div class="flex lg:flex-row-reverse">
+      <div class=""></div>
+      <div class="lg:w-[60%] w-full">
         <img :src="HomeImage" alt="Home" width="10000" />
       </div>
     </div>

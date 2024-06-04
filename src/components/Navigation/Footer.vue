@@ -4,7 +4,7 @@ import Email from "../../assets/email.svg";
 </script>
 
 <template>
-  <div class="w-full flex justify-center bg-UTAMA">
+  <div class="w-full flex justify-center bg-UTAMA" id="ContactUs">
     <div class="container flex lg:flex-row flex-col w-full gap-10 py-10 justify-between">
       <div class="flex flex-col">
         <p class="text-xl text-YELLOW01 font-semibold">Secretariat</p>

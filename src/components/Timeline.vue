@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="w-full flex justify-center mt-20 mb-10">
+  <div class="w-full flex justify-center mt-20 mb-10" id="Timeline">
     <div class="container flex flex-col">
       <h1
         class="lg:text-7xl text-4xl font-bold text-UTAMA border-b-4 max-w-fit pb-3 border-YELLOW01"

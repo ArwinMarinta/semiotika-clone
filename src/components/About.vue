@@ -4,7 +4,7 @@ import { conferense } from "../data/Conference";
 </script>
 
 <template>
-  <div class="w-full lg:mt-20 mt-10 flex justify-center">
+  <div class="w-full lg:mt-20 mt-10 flex justify-center" id="About">
     <div class="container flex flex-col">
       <div class="flex lg:flex-row flex-col lg:gap-28 gap-10">
         <div class="lg:w-[40%]">

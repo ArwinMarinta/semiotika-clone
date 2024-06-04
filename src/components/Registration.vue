@@ -3,7 +3,7 @@ import { Registration } from "../data/Registration";
 </script>
 
 <template>
-  <div class="w-full justify-center flex mt-20 mb-10">
+  <div class="w-full justify-center flex mt-20 mb-10" id="Registration">
     <div class="container flex flex-col">
       <h1 class="text-center lg:text-7xl text-5xl font-bold text-UTAMA">Registration</h1>
       <div class="flex flex-col mt-12 lg:w-[35%]">

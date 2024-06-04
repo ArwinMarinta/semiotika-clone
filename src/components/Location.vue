@@ -16,7 +16,7 @@ const center = { lat: -1.1509151, lng: 116.8709862 };
 </script>
 
 <template>
-  <div class="py-10">
+  <div class="py-10" id="Location">
     <div class="w-full text-center font-bold lg:text-7xl text-4xl text-UTAMA">
       Location
     </div>

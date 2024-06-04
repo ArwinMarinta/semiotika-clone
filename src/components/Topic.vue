@@ -4,7 +4,7 @@ import Topic5 from "../assets/Topic/topic5.svg";
 </script>
 
 <template>
-  <div class="w-full flex justify-center mt-20 mb-10">
+  <div class="w-full flex justify-center mt-20 mb-10" id="Topics">
     <div class="container flex lg:flex-row flex-col-reverse gap-16">
       <div class="lg:w-[70%] grid grid-cols-2 lg:gap-8 gap-4 lg:mt-14">
         <div v-for="(item, index) in Topic" :key="index">
